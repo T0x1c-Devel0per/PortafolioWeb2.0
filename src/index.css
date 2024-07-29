@@ -1,0 +1,35 @@
+#root {
+  overflow-x: hidden;
+  background-color: #121d22;
+}
+
+/* src/App.css */
+.slide {
+  padding: 0; /* Elimina el padding si causa espacio en blanco */
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em; /* Ajusta el tamaño de fuente para un diseño más limpio */
+}
+
+.slide1 {
+  background: #FEA900;
+}
+
+.slide2 {
+  background: #B3DC4A;
+}
+
+.slide3 {
+  background: #6AC0FF;
+}
+
+/* src/index.css */
+/* src/index.css */
+.page-container {
+  width: 100%;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+}

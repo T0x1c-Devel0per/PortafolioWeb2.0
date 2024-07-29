@@ -1,0 +1,24 @@
+.home-container {
+    color: white;
+    height: 100vh;
+}
+.nav-button{
+    position: relative;
+    left: 2vh;
+    bottom: 1vh;
+}
+
+.home-container p {
+    font-size: 50px;
+}
+
+.tittle-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 5vh;
+}
+.about-tittle{
+    color: white;
+}
